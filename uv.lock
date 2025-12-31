@@ -4417,6 +4417,11 @@ dev = [
     { name = "ruff" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "pre-commit" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "datasets", specifier = ">=2.0.0" },
@@ -4441,6 +4446,9 @@ requires-dist = [
     { name = "transformers", specifier = ">=4.30.0" },
 ]
 provides-extras = ["dev"]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pre-commit", specifier = ">=4.5.1" }]
 
 [[package]]
 name = "scikit-learn"
