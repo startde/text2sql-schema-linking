@@ -1,0 +1,3 @@
+model_name: sentence-transformers/all-MiniLM-L6-v2
+learning_rate: 2e-5
+margin: 0.5

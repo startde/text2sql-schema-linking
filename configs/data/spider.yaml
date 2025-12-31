@@ -1,0 +1,5 @@
+train_path: data/spider_train.parquet
+val_path: data/spider_dev.parquet
+batch_size: 32
+num_workers: 2
+max_length: 128

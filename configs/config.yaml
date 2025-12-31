@@ -1,0 +1,6 @@
+defaults:
+  - data: spider
+  - model: biencoder
+  - train: default
+
+# Add other global configs here
