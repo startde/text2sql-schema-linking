@@ -71,6 +71,7 @@ celerybeat-schedule
 celerybeat.pid
 
 *.sage.py
+*.egg-info
 
 .env
 .venv
